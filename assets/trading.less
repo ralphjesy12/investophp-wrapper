@@ -1,0 +1,13 @@
+// out: trading.css, sourcemap: false, compress: true
+span.countTo{
+    &.money{
+        &:before{
+            content: '$ ';
+        }
+    }
+    &.percent{
+        &::after{
+            content: ' %';
+        }
+    }
+}
